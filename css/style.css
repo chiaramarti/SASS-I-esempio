@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.padding-inline-sm {
+  padding-inline: 0.8em;
+}
+
+.padding-inline-normal {
+  padding-inline: 1em;
+}
+
+.padding-inline-md {
+  padding-inline: 1.5em;
+}
+
+.padding-inline-lg {
+  padding-inline: 2em;
+}
+
+.padding-inline-xl {
+  padding-inline: 2.5em;
+}
+
+.padding-inline-xxl {
+  padding-inline: 10em;
+}
+
+.padding-block-sm {
+  padding-block: 0.8em;
+}
+
+.padding-block-normal {
+  padding-block: 1em;
+}
+
+.padding-block-md {
+  padding-block: 1.5em;
+}
+
+.padding-block-lg {
+  padding-block: 2em;
+}
+
+.padding-block-xl {
+  padding-block: 2.5em;
+}
+
+.padding-block-xxl {
+  padding-block: 10em;
+}
+
+.margin-inline-sm {
+  margin-inline: 0.8em;
+}
+
+.margin-inline-normal {
+  margin-inline: 1em;
+}
+
+.margin-inline-md {
+  margin-inline: 1.5em;
+}
+
+.margin-inline-lg {
+  margin-inline: 2em;
+}
+
+.margin-inline-xl {
+  margin-inline: 2.5em;
+}
+
+.margin-inline-xxl {
+  margin-inline: 10em;
+}
+
+.margin-block-sm {
+  margin-block: 0.8em;
+}
+
+.margin-block-normal {
+  margin-block: 1em;
+}
+
+.margin-block-md {
+  margin-block: 1.5em;
+}
+
+.margin-block-lg {
+  margin-block: 2em;
+}
+
+.margin-block-xl {
+  margin-block: 2.5em;
+}
+
+.margin-block-xxl {
+  margin-block: 10em;
+}
+
+.btn {
+  border-radius: 0.8em;
+  padding: 2em;
+  margin: 0.5em;
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: scale(1.01);
+}
+
+.btn-primary {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #f4f4f4;
+}
+
+.btn-tertiary {
+  background-color: #4caf50;
+  color: #f4f4f4;
+}
+
+/*# sourceMappingURL=style.css.map */

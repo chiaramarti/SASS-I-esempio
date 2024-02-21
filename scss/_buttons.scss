@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 0.8em;
+    padding: $padding-default;
+    margin: 0.5em;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.01);
+    }
+}
+
+$btn-color: (
+    primary: $first-color,
+    secondary: $second-color,
+    tertiary: $third-color
+);
+  
+@each $color, $value in $btn-color {
+    .btn-#{$color} {
+      background-color: $value;
+      color: $lighter-color;
+    }
+}

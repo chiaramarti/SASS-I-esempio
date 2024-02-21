@@ -1,0 +1,41 @@
+$padding-default: 2em;
+$margin-default: 0 auto;
+
+$sizes: (
+  sm: 0.8em,
+  normal: 1em,
+  md: 1.5em,
+  lg: 2em,
+  xl: 2.5em,
+  xxl: 10em
+);
+
+@mixin get-padding($direction) {
+  @each $size, $value in $sizes {
+    .padding-#{$direction}-#{$size} {
+      @if $direction {
+        padding-#{$direction}: $value;
+      } @else {
+        padding: $value;
+      }
+    }
+  }
+}
+
+@include get-padding(inline);
+@include get-padding(block);
+
+@mixin get-margins($direction) {
+  @each $size, $value in $sizes {
+    .margin-#{$direction}-#{$size} {
+      @if $direction {
+        margin-#{$direction}: $value;
+      } @else {
+        margin: $value;
+      }
+    }
+  }
+}
+
+@include get-margins(inline);
+@include get-margins(block);

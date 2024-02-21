@@ -1,0 +1,14 @@
+$main-font: Arial, Helvetica, sans-serif;
+
+$font-size-small: 10pt;
+$font-size-normal: 12pt;
+$font-size-medium: 18pt;
+$font-size-large: 24pt;
+$font-size-xl: 48pt;
+
+@mixin title-big {
+  font-size: $font-size-xl;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: darken($hero-color, 20);
+}
